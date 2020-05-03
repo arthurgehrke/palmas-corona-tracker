@@ -1,0 +1,9 @@
+body {
+  background-color: mistyrose;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
