@@ -16,7 +16,8 @@ export const fetchData = async () => {
     const data = {
       confirmed: 83,
       recovered: 26,
-      deaths: 2
+      deaths: 2,
+      lastUpdate: '2020-05-04'
     }
     return data
   } catch (err) {
