@@ -1,7 +1,7 @@
 import axios from 'axios'
 import cheerio from 'cheerio'
 
-const url = 'https://coronavirus.palmas.to.gov.br/'
+//const url = 'https://coronavirus.palmas.to.gov.br/'
 
 export const fetchData = async () => {
   try {
@@ -23,4 +23,14 @@ export const fetchData = async () => {
   } catch (err) {
     return err
   }
+}
+
+export const fetchDailyData = () => {
+  try {
+    const data = {
+      haha: 1
+    }
+
+    console.log(data)
+  } catch (err) {}
 }
